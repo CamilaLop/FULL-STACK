@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: aliceblue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background-color: rgba(36, 36, 36, 0.845);
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+.logo-onebitcode {
+  width: 250px;
+  padding: 20px;
+}
+.buttons {
+  display: flex;
+  gap: 10px 10px;
+  padding: 20px;
+}
+.buttonheader {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.buttonheader:hover {
+  border-bottom: 2px solid;
+}
+.title {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+}
+.subtitle {
+  color: rgba(0, 0, 0, 0.615);
+  font-size: 20px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.content {
+  flex: 1 0 auto;
+  padding: 10px;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.item0,
+.item1,
+.item2,
+.item3,
+.item4,
+.item5 {
+  display: grid;
+  cursor: pointer;
+  border: transparent;
+  transition: 0.1s;
+}
+.item0:hover,
+.item1:hover,
+.item2:hover,
+.item3:hover,
+.item4:hover,
+.item5:hover {
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.extra {
+  background-color: rgba(36, 36, 36, 0.845);
+  grid-column: 4/5;
+  grid-row: 1/5;
+}
+.extra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer {
+  background-color: rgba(36, 36, 36, 0.845);
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+.img {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  border-radius: 20px;
+  min-width: 70%;
+}
+.imgside {
+  width: 300px;
+  height: 250px;
+}

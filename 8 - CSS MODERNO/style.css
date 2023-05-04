@@ -1,0 +1,52 @@
+.img {
+  width: 765px;
+  height: 400px;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.city {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: bold;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(17, 4, 4);
+}
+
+@media (max-width: 2560px) and (min-width: 1440px) {
+  .img {
+    width: 70%;
+    height: auto;
+  }
+  .city {
+    font-size: 30px;
+  }
+}
+@media (max-width: 790px) {
+  .img {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  .text {
+    font-size: 18px;
+    text-align: center;
+  }
+  .city {
+    text-align: center;
+  }
+}

@@ -1,0 +1,21 @@
+li {
+  color: blue;
+}
+h1 {
+  font-size: 50px;
+  background-color: antiquewhite;
+  border-bottom: green;
+  border-width: 8px;
+  border-style: solid;
+}
+
+body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Chandra_image_of_Sgr_A.jpg/1024px-Chandra_image_of_Sgr_A.jpg);
+  background-repeat: no-repeat;
+  background-size: ;
+}
+
+.moon {
+  color: black;
+  font-size: large;
+}
